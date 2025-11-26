@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" href="assets/images/dev.png" type="image/x-icon" />
+
+    <title>Portfólio</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#home" class="logo">Rian<span>Arruda</span></a>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Início</a>
+        <a href="#education">Sobre</a>
+        <a href="#services">Projetos</a>
+        <a href="#contact">Contato</a>
+      </nav>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>Opa!, me chamo <span>Rian Arruda</span></h1>
+
+        <div class="social-icons">
+          <a href="https://github.com/Rians01" target="_blank"><i class="bx bxl-github"></i></a>
+          <a href="#" target="_blank"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://x.com/Rian_br_ads" target="_blank"><i class="bx bxl-twitter"></i></a>
+          <a href="#" target="_blank"><i class="bx bxl-discord-alt"></i></a>
+        </div>
+
+        <div class="btn-group">
+          <a href="#hire" class="btn">Contrate-me</a>
+          <a href="#contact" class="btn">Contato</a>
+        </div>
+      </div>
+
+      <div class="home-img">
+        <img
+          src="https://github.com/Rians01.png"
+          alt="Eu mesmo tirando foto"
+        />
+      </div>
+    </section>
+
+    <section class="education" id="education">
+      <h2 class="heading">Acadêmico</h2>
+
+      <div class="timeline-items">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2025</div>
+          <div class="timeline-content">
+            <h3>Cursando | Análise e Desenvolvimento de Sistemas</h3>
+            <p>
+            Através do Passaporte Universitário, um projeto social da Prefeitura de Maricá que oferece bolsas de estudo em faculdades para jovens de baixa renda, consegui obter esse benefício e atualmente estou no segundo período da faculdade.
+
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2022</div>
+          <div class="timeline-content">
+            <h3>Curso de Programaçao</h3>
+            <p>
+            Por volta de 2022, a CODEMAR estava disponibilizando cursos de Programação, e eu me cadastrei para fazer um deles. Foi um curso sensacional, com professores incríveis e um conteúdo muito bom. Porém, ao término do curso, não consegui obter o certificado, pois eu não havia feito a prova final.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2021</div>
+          <div class="timeline-content">
+            <h3>Curso do Gustavo Guanabara</h3>
+            <p>
+              Esse é de lei, bem no comecinho da pandemia onde todos estavam em casa, se falava muito no mundo da Programação. Foi quando eu comecei a me interessar e o canal do Gustavo Guanabara veio como uma luva que se encaixava certinho.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <h2 class="heading">Projetos</h2>
+
+      <div class="services-container">
+        <div class="service-box">
+          <div class="service-info">
+            <h4>Criar um jogo</h4>
+            <p>
+              Um dos motivos que me fizeram entrar no mundo da programação foi o desejo de criar meus próprios jogos. Ainda estou no começo, mas pretendo desenvolver jogos incríveis no futuro.
+            </p>
+          </div>
+        </div>
+
+        <div class="service-box">
+          <div class="service-info">
+            <h4>Desenvolver um jogo no Roblox</h4>
+            <p>
+              Desde pequeno eu sempre gostei de jogar no Roblox, e um dos meus sonhos é criar meu próprio jogo nessa plataforma. Estou estudando a linguagem Lua para poder desenvolver jogos incríveis no Roblox.
+            </p>
+          </div>
+        </div>
+
+        <div class="service-box">
+          <div class="service-info">
+            <h4>Criar um simulador de guerra</h4>
+            <p>
+              Sempre fui apaixonado por jogos de guerra, e um dos meus objetivos é criar um simulador de guerra que seja realista e divertido, tipo Arma 3 e Arma Reforge. Estou estudando diversas tecnologias para poder desenvolver esse projeto.
+            </p>
+          </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Entre em Contato</h2>
+
+      <div class="contact-container">
+        <div class="contact-info">
+          <div class="contact-card">
+            <i class="bx bxs-envelope"></i>
+            <h3>Email</h3>
+            <p>rianps01@gmail.com</p>
+          </div>
+          <div class="contact-card">
+            <i class="bx bxs-phone"></i>
+            <h3>Telefone</h3>
+            <p>(24) 99999-9999</p>
+          </div>
+          <div class="contact-card">
+            <i class="bx bxs-map"></i>
+            <h3>Localização</h3>
+            <p>Maricá, RJ - Brasil</p>
+          </div>
+        </div>
+
+        <form class="contact-form" action="#">
+          <div class="form-group">
+            <label for="name"><i class="bx bxs-user"></i> Nome Completo</label>
+            <input type="text" id="name" placeholder="Digite seu nome" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email"><i class="bx bxs-envelope"></i> Email</label>
+            <input type="email" id="email" placeholder="seu.email@exemplo.com" required />
+          </div>
+
+          <div class="form-group">
+            <label for="subject"><i class="bx bxs-message-dots"></i> Assunto</label>
+            <input type="text" id="subject" placeholder="Qual é o assunto?" required />
+          </div>
+
+          <div class="form-group">
+            <label for="message"><i class="bx bxs-edit"></i> Mensagem</label>
+            <textarea 
+              id="message" 
+              placeholder="Escreva sua mensagem aqui..." 
+              rows="5"
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-submit">
+            <i class="bx bxs-send"></i> Enviar Mensagem
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="social">
+        <a href="https://github.com/Rians01" target="_blank"><i class="bx bxl-github"></i></a>
+        <a href="#" target="_blank"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://x.com/Rian_br_ads" target="_blank"><i class="bx bxl-twitter"></i></a>
+        <a href="#" target="_blank"><i class="bx bxl-discord-alt"></i></a>
+      </div>
+
+      <ul>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Sobre Mim</a></li>
+        <li><a href="#home">Início</a></li>
+        <li><a href="#education">Sobre</a></li>
+        <li><a href="#services">Serviços</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+      <p class="copyright">
+        &copy; 2025 Rian Arruda | Universidade Vassouras.
+      </p>
+    </footer>
+  </body>
+</html>
