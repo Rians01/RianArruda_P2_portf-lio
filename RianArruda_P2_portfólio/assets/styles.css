@@ -180,47 +180,15 @@ span {
     0 0 20px var(--main-color); /* Adiciona uma sombra */
 }
 
-.btn-group {
-  display: flex; /* Faz com que os elementos fiquem em linha */
-  align-items: center; /* Alinha os elementos no centro no eixo vertical */
-  gap: 1.5rem; /* Adiciona um espaçamento entre os elementos */
-}
-
-.btn-group a:nth-of-type(2) {
-  /* Seleciona o segundo elemento do grupo */
-  background-color: var(--bg-color); /* Define a cor de fundo */
-  color: var(--main-color); /* Define a cor do texto */
-  border: 2px solid var(--main-color); /* Adiciona uma borda */
-  box-shadow: 0 0 20px transparent; /* Adiciona uma sombra */
-}
-
 .btn-group a:nth-of-type(2):hover {
   box-shadow: 0 0 20px var(--main-color); /* Adiciona uma sombra */
   background-color: var(--main-color); /* Define a cor de fundo */
   color: var(--bg-color); /* Define a cor do texto */
 }
 
-.text-animation {
-  font-size: 34px; /* Define o tamanho da fonte */
-  font-weight: 600; /* Define o peso da fonte */
-  min-width: 280px; /* Define a largura mínima */
-}
-
 .text-animation span {
   position: relative; /* Define a posição relativa */
 }
-
-.text-animation span::after {
-  content: ""; /* Adiciona um conteúdo vazio */
-  background-color: var(--bg-color); /* Define a cor de fundo */
-  position: absolute; /* Define a posição absoluta */
-  width: calc(100% + 8px); /* Define a largura de acordo com o conteúdo */
-  height: 100%; /* Define a altura de acordo com o conteúdo */
-  border-left: 3px solid var(--bg-color); /* Adiciona uma borda à esquerda */
-  right: -8px; /* Define a distância da direita */
-
-}
-
 
 .heading {
   font-size: 2rem; /* Define o tamanho da fonte equivalente a 40px */
@@ -399,13 +367,6 @@ span {
   max-height: 100px;
   line-height: 1.6;
   margin: auto;
-}
-
-
-
-#star {
-  color: gold;
-  font-size: 1.4rem;
 }
 
 .contact {
